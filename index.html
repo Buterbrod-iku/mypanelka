@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#787960">
+<meta name="description" content="Моя панелька. Скоро заселение.">
+<title>Скоро заселение — Моя панелька</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css?v=2">
+<script src="app.js?v=2" defer></script>
+</head>
+<body>
+<main>
+<h1 class="sr-only">Скоро заселение</h1>
+<div class="scene">
+<picture>
+<source media="(max-aspect-ratio: 6/5)" srcset="assets/mobile-small-v2.webp 640w, assets/mobile-v2.webp 948w" sizes="122vw" width="948" height="1659">
+<img class="wall" src="assets/desktop-v2.webp" width="1672" height="941" alt="Эмалированная табличка «Скоро заселение» на стене подъезда" fetchpriority="high" decoding="async">
+</picture>
+<button class="reaction" type="button" aria-label="Оставить лайк" aria-pressed="false" title="Оставить лайк">
+<picture class="button-picture"><source media="(max-aspect-ratio: 6/5)" srcset="assets/button-mobile-v2.webp"><img src="assets/button-desktop-v2.webp" width="138" height="138" alt="" draggable="false"></picture>
+<span class="spark" aria-hidden="true">♥</span>
+</button>
+</div>
+<p class="sr-only" role="status" aria-live="polite" id="status"></p>
+</main>
+</body>
+</html>
